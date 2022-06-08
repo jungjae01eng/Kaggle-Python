@@ -1,7 +1,7 @@
 # @author Jungjae Lee
 # Independent Study
 # Created on June 6, 2022
-# Sources: Hello, Python by ColinMorris on the Kaggle
+# Sources: Hello, Python by Colin Morris on the Kaggle
 # --------------------------------------------------------------------------------
 
 
