@@ -1,7 +1,7 @@
 # @author Jungjae Lee
 # Independent Study
 # Created on June 7, 2022
-# Sources: Functions and Getting Help by ColinMorris on the Kaggle
+# Sources: Functions and Getting Help by Colin Morris on the Kaggle
 # --------------------------------------------------------------------------------
 
 
