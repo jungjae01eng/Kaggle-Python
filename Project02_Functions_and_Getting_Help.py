@@ -1,6 +1,7 @@
 # @author Jungjae Lee
 # Independent Study
 # Created on June 7, 2022
+# Last Updated on June 11, 2022
 # Sources: Functions and Getting Help by Colin Morris on the Kaggle
 # --------------------------------------------------------------------------------
 
@@ -57,6 +58,7 @@ def squared_call(fn, arg):
     """Call fn on the result of calling fn on arg"""
     return fn(fn(arg))      # fn(arg) is 5, so fn(fn(arg)) is 5*5 = 25
 
+
 print(
     call(mult_by_five, 1),
     squared_call(mult_by_five, 1),
@@ -77,3 +79,19 @@ print(
     max(100, 51, 14, key=mod_5),        # key argument returns the argument x that maximizes key(x)
     sep='\n',
 )
+
+
+# --------------------------------------------------------------------------------
+# ----------------------------------- EXERCISE -----------------------------------
+# Question 1
+def round_to_two_places(num):
+    """Return the given number rounded to two decimal places.
+    """
+    return round(num, 2)
+
+
+print(round_to_two_places(3.25325))
+
+
+# Question 2
+round(3523405, -4)
