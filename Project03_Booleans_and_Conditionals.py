@@ -1,7 +1,7 @@
 # @author Jungjae Lee
 # Independent Study
 # Created on June 8, 2022
-# Last Updated on June 10, 2022
+# Last Updated on June 12, 2022
 # Sources: Booleans and Conditionals by Colin Morris on the Kaggle
 # --------------------------------------------------------------------------------
 
@@ -116,3 +116,29 @@ if 0:
     print(0)
 elif "spam":
     print("spam")
+
+
+# --------------------------------------------------------------------------------
+# ----------------------------------- EXERCISE -----------------------------------
+# Question 1: In Python, there are no sign function. However, we can define our own!
+def sign(x1):
+    if x1 > 0:
+        return 1
+    elif x1 == 0:
+        return 0
+    elif x1 < 0:
+        return -1
+
+
+print(sign(2))
+print(sign(-4))
+print(sign(0))
+
+
+# Question 2
+def to_smash(total_candies):
+    print("Splitting", total_candies, "candies" if total_candies > 1 else "candy")
+
+
+to_smash(3)
+to_smash(0)
