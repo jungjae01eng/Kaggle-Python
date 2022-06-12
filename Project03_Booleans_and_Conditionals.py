@@ -2,7 +2,7 @@
 # Independent Study
 # Created on June 8, 2022
 # Last Updated on June 10, 2022
-# Sources: Functions and Getting Help by Colin Morris on the Kaggle
+# Sources: Booleans and Conditionals by Colin Morris on the Kaggle
 # --------------------------------------------------------------------------------
 
 
