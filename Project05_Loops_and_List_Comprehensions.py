@@ -1,7 +1,7 @@
 # @author Jungjae Lee
 # Independent Study
 # Created on June 13, 2022
-# Sources: Lists by Colin Morris on the Kaggle
+# Sources: Loops and List Comprehensions by Colin Morris on the Kaggle
 # --------------------------------------------------------------------------------
 
 
